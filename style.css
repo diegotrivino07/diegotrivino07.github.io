@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.desktop {
+	width: auto;
+	height: auto;
+}
+
+.header {
+	width: 261px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 100px;
+}
+
+.body {
+	width: 400px;
+	height: 400px;
+	margin-left: 400px;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
+}
+
+.header2 {
+	width: 233px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.body2 {
+	width: auto;
+	height: auto;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.body3 {
+	width: auto;
+	height: auto;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.body3:hover, .body3:focus {
+	transform: rotate(0deg);
+	background-color: #BCBCBC;
+	color: #585858;
+	transition: all 0.2s;
+	margin-right: 30px;
+}
+
+.body:hover, .body:focus {
+	transform: rotate(2deg);
+	color: #585858;
+	transition: all 0.2s;
+}
+
+.body2:hover, .body2:focus {
+	transform: rotate(0deg);
+	background-color: #BCBCBC;
+	color: #585858;
+	transition: all 0.2s;
+	margin-right: 30px;
+}
+
+.header:hover, .header:focus {
+	transform: rotate(-2deg);
+	color: #585858;
+	transition: all 0.2s;
+}
+
+.type:hover, .type:focus {
+	transform: rotate(-2deg);
+	color: #585858;
+	transition: all 0.2s;
+	margin-bottom: auto;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	.right {
+		margin-left: 0px;
+		background-color: #69B054;
+	}
+}
